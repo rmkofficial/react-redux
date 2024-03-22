@@ -39,3 +39,37 @@
 .read-the-docs {
   color: #888;
 }
+
+form{
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: white;
+  padding: 50px 100px;
+  color: black;
+  border-radius: 30px;
+}
+
+form h2{
+  margin-top: 0;
+}
+
+
+form input{
+  padding: 10px;
+  width: 400px;
+  background-color: #eee;
+  color: black;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+header button{
+  background-color: red;
+}
+
