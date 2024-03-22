@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { authActions } from "../store";
+import { authActions } from "../store/auth";
 import { useDispatch } from "react-redux";
 
 const UserForm = () => {
